@@ -80,12 +80,12 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal" >
 
-                <TextView
+           		<TextView
                     android:id="@+id/temp1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textColor="#FFF"
+                    android:textColor="#00ff00"
                     android:textSize="40sp" />
 
                 <TextView
@@ -103,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textColor="#FFF"
+                    android:textColor="#00ffff"
                     android:textSize="40sp" />
             </LinearLayout>
         </LinearLayout>

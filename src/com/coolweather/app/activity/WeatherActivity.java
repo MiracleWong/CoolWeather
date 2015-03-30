@@ -80,8 +80,8 @@ public class WeatherActivity extends Activity implements OnClickListener{
 			// 没有县级代号时就直接显示本地天气
 			showWeather();
 		}
-//		switchCity.setOnClickListener(this);
-//		refreshWeather.setOnClickListener(this);
+		switchCity.setOnClickListener(this);
+		refreshWeather.setOnClickListener(this);
 	}
 	
 	@Override
@@ -89,7 +89,7 @@ public class WeatherActivity extends Activity implements OnClickListener{
 		switch (v.getId()) {
 		case R.id.switch_city:
 			Intent intent = new Intent(this, ChooseAreaActivity.class);
-			intent.putExtra("from_weather_activity", true);
+			intent.putExtra("from_weather_activity", true);		// 添加标志位，供后面的代码判断
 			startActivity(intent);
 			finish();
 			break;
