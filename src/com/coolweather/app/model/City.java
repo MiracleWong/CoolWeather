@@ -1,13 +1,17 @@
 package com.coolweather.app.model;
-
+/**
+ * 创建City类
+ * @author MiracleWong
+ *
+ */
 public class City {
-
+	// 自增长的ID
 	private int id;
-
+	// 城市名
 	private String cityName;
-
+	// 城市代号
 	private String cityCode;
-
+	// City表关联的Province表的外键
 	private int provinceId;
 
 	public int getId() {

@@ -1,16 +1,15 @@
 package com.coolweather.app.model;
 /***
- * ¹¦ÄÜ£ºÊ¡µÄÊı¾İĞÅÏ¢
- * 
+ * åˆ›å»ºProvinceç±»
  * @author MiracleWong
  *
  */
 public class Province {
-	// ×ÔÔö³¤Ö÷¼ü
+	// è‡ªå¢é•¿çš„ID
 	private int id;
-	// Ê¡Ãû
+	// çœå
 	private String provinceName;
-	// Ê¡¼¶´úºÅ
+	// çœçº§ä»£å·
 	private String provinceCode;
 
 	public int getId() {

@@ -35,12 +35,12 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 			int version) {
 		super(context, name, factory, version);
 	}
-
+	// 在onCreate()方法中执行数据表的创建
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		db.execSQL(CREATE_PROVINCE);  	// 创建Province类
-		db.execSQL(CREATE_CITY);  		// 创建City类
-		db.execSQL(CREATE_COUNTY);  	// 创建Country类
+		db.execSQL(CREATE_PROVINCE);  	// 创建Province表
+		db.execSQL(CREATE_CITY);  		// 创建City表
+		db.execSQL(CREATE_COUNTY);  	// 创建Country表
 	}
 
 	@Override

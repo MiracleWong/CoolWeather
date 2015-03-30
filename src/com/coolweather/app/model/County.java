@@ -1,13 +1,17 @@
 package com.coolweather.app.model;
-
+/**
+ * åˆ›å»ºCountyç±»
+ * @author MiracleWong
+ *
+ */
 public class County {
-	// ×ÔÔö³¤Ö÷¼ü
+	// è‡ªå¢é•¿çš„ID
 	private int id;
-	// ÏØÃû
+	// å¿å
 	private String countyName;
-	// ÏØ¼¶´úºÅ
+	// å¿çº§ä»£å·
 	private String countyCode;
-	// County±í¹ØÁªCity±íµÄÍâ¼ü
+	// Countyè¡¨å…³è”çš„Cityè¡¨çš„å¤–é”®
 	private int cityId;
 
 	public int getId() {
